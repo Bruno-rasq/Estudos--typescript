@@ -1,0 +1,17 @@
+"use strict";
+let nvalor;
+let svalor;
+let uvalor;
+uvalor = 10;
+nvalor = Number(uvalor);
+svalor = `${uvalor}`;
+console.log(typeof uvalor);
+console.log(uvalor);
+console.log(typeof nvalor);
+console.log(nvalor);
+console.log(typeof svalor);
+console.log(svalor);
+let strgValor;
+let nmbValor;
+strgValor = '20';
+nmbValor = 10;
