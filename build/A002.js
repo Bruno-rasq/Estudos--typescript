@@ -1,0 +1,15 @@
+"use strict";
+let arr = []; 
+let cursos = ['typescript', 'node', 'javascript']; 
+cursos.push('PHP');
+let valores = [100, 20, 5];
+valores.push(34);
+console.log(cursos);
+console.log(valores);
+let Union; 
+Union = 'teste';
+Union = 22;
+console.log(Union);
+let arrunion = ['a', 'b', 2, 3, true];
+console.log(arrunion);
+let arrAny = []; 
