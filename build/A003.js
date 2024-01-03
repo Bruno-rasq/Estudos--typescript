@@ -1,0 +1,10 @@
+"use strict";
+let numeros = [10, 5, 2, 1];
+let numeros2 = [10, 5, 2, 1];
+let numeros3 = ['a', 'b', 3, 10];
+let numeros4 = [];
+numeros.push(19);
+numeros.unshift();
+console.log(numeros);
+let numeros_RO = [10, 15, 20];
+console.log(numeros_RO);
