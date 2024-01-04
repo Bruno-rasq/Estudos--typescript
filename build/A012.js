@@ -15,16 +15,23 @@ class Computador {
         let PC = { nome: this.PC_name, ram: this.ram, cpu: this.cpu, ON_OFF: this.isOn ? 'On' : 'off' };
         console.log(PC);
     }
+    upgradeRAM(qnt) {
+        if (qnt >= 0 && qnt <= 1000) {
+            this.ram += qnt;
+        }
+        else {
+            console.log(` Valor ${qnt} inválido!`);
+        }
+    }
 }
 const PC1 = new Computador('windows', 64, 10);
 const PC2 = new Computador('linux', 128, 10);
 const PC3 = new Computador('mac', 32, 5, true);
 PC1.ON_Off();
-PC1.info()
-PC2.info()
-PC3.info()
-console.log(PC1.isOn)
-PC2.ON_Off()
-PC2.info()
-PC2.ON_Off()
+PC1.info();
+PC2.info();
+PC3.info();
+PC2.ON_Off();
+PC2.info();
+PC2.ON_Off();
 PC2.info();
