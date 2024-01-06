@@ -1,5 +1,5 @@
 //---------------------------------------
-// typescript: objeto literal / inertface
+// typescript: objeto literal / interface
 //---------------------------------------
 
 interface curso {
