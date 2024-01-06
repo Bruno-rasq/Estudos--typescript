@@ -1,4 +1,4 @@
-export class Pessoa {
+class Pessoa {
 
     nome: string
     altura: number
@@ -10,7 +10,7 @@ export class Pessoa {
     }
 }
 
-export class Objeto {
+class Objeto {
 
     nome: string
 
@@ -18,3 +18,9 @@ export class Objeto {
         this.nome = n
     }
 }
+
+const Coisas = ['Bola', 'tesoura', 'livro', 'mochila']
+
+
+export default Coisas
+export { Pessoa, Objeto }
